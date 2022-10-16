@@ -2,14 +2,7 @@
 const usercount=require('../model/usermodel')
 const volcount=require('../model/volmodel')
 
-// const getCount= async()=>{
-//     try{
-//         const result=await usercount.count()
-//         return result
-//     } catch(err){
-//         console.log(err)
-//     }
-// }
+
 let vc;
 const volunCount=volcount.countDocuments((err,count)=>{
     if(err){
