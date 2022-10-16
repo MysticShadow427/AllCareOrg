@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, white, white);
+    padding: 10px;
+}
+
+.container{
+    /* padding: 106px 60px; */
+    box-shadow: 9px 14px 18px 0 rgba(0, 0, 0, 0.2), 3px 16px 24px 0 rgba(0, 0, 0, 0.19);
+    max-width: 700px;
+    width: 100%;
+    /* padding: 25px 30px; */
+    border-radius: 25px;
+    background: linear-gradient(135deg, #800020, #b3002d);
+    padding: 7% 7%;
+    /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+
+}
+
+.container .heading{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.container .heading::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+}
+
+.container form .card-details{
+    margin-top: 25px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .card-details .card-box{
+    width:  calc(100% /2 - 20px );
+    margin-bottom: 15px;
+}
+
+.card-details .card-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.card-details .card-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+form .circal-form .circal-title{
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid;
+}
+
+form .circal-form .category{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form .button_reg input{
+    padding: 10px 0;
+    margin-top: 10px;
+    height: 100%;
+    width: 50%;
+    outline: none;
+    color: #800020;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: white;
+}
+
+form .button_reg input:hover{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+@media (max-width:584px){
+    .container{
+        max-width: 100%;
+    }
+    form .card-details .card-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .circal-form .category{
+        width: 100%
+    }
+    .container{
+        max-height: 300px;
+        overflow: scroll;
+    }
+    .card-details::_webkit-scrollbar{
+        width: 0;
+    }
+
+.button_reg{
+    /* position: absolute; */
+    bottom: 20px;
+    /* right: auto;
+    left: auto; */
+    width: 30px;
+}
+
+}
+
+
+
+
+/* CSS */
+.button-1 {
+  background-color: #a92748;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 1000;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #800020;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    background-color: white;
+}
