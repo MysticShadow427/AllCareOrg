@@ -70,6 +70,7 @@ Run npm start to start server on your local host and port 3000.
     |--models/               #Contains all mongoose models for users and volunteers
     |--services/             #Contains the rendering of routes
     |--emails/               #Contains the email sending code
+    |--views/                #Contains all .hbs files to render dynamic content on the webpage
 |-- server.js            #Main file of server folder
 ``
 
