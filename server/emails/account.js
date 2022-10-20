@@ -32,7 +32,7 @@ const sendVolunteerEmail =async (email, name) => {
         from:'allcare.org.hackout@gmail.com',
         to:email,
         subject:'You are a volunteer now!',
-        text:`Hello ${name}!.Thank You for choosing to be a volunteer`,
+        text:`Hello ${name}!.Thank You for choosing to be a volunteer`
         
     }
     
