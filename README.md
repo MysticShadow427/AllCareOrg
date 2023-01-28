@@ -45,7 +45,7 @@ This project was built as a part of [hackout](https://www.linkedin.com/posts/hea
 **After extracting the zip file or after cloning the repository**
 
 Open the server.js folder and a terminal in it.
-Run npm start to start server on your local host and port 3000.
+Run **npm install** to install all the dependancies and after that run **npm start** to start server on your local host and port 3000.
 
 ## Brief Project Structure
 
