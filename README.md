@@ -1,6 +1,6 @@
 # AllCareOrg
 A <i>Web Application</i> made for donation,charity and volunteering.This app allows a person either to be a volunteer and work on field 
-or donate money in the categories mentioned on the index page.They can see how much nomey and work done,which is stored in databse.
+or donate money in the categories mentioned on the index page.They can see how much money and work is done,which is stored in databse.
 This project was built as a part of [hackout](https://www.linkedin.com/posts/headout-com_hackout-brought-to-you-by-headout-is-our-activity-6975838642560774144-WOgY?utm_source=share&utm_medium=member_desktop) a hackathon organized by [headout](https://www.headout.com/) and [GeekHaven](https://geekhaven.iiita.ac.in/).
 
 ### Built With
