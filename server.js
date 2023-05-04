@@ -12,6 +12,7 @@ const publicDirectoryPath=path.join(__dirname,'./assets')
 
 dotenv.config({path:'config.env'})
 const port=process.env.PORT || 8080
+cont hostname='0.0.0.0'
 
 //log the requests
 app.use(morgan('tiny'))
@@ -36,6 +37,6 @@ app.use(express.static('assets'))
 app.use('/',require('./server/routes/router'))
 
 
-app.listen(port,()=>{
+app.listen(port,hostname,()=>{
     console.log('Server running on '+port)
 })
