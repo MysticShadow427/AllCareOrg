@@ -12,7 +12,7 @@ const publicDirectoryPath=path.join(__dirname,'./assets')
 
 dotenv.config({path:'config.env'})
 const port=process.env.PORT || 8080
-cont hostname='0.0.0.0'
+const hostname='0.0.0.0'
 
 //log the requests
 app.use(morgan('tiny'))
